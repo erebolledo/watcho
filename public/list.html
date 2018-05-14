@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+        <link href="img/icono.gif" rel="shortcut icon" />    
+        <title>Watcho - Relojes - Admin</title>    
+
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link href="css/main.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+        <div class="navbar-fixed">
+            <nav class="black" role="navigation">
+              <div class="nav-wrapper container">
+                  <div class="logo-img">
+                      <a href="#" class="brand-logo">
+                          <img src="img/logo-text.gif" alt=""/>
+                      </a>                                                
+                  </div>
+                  <div class="logo-text">
+                      <a href="#" class="brand-logo">
+                          WATCH-O
+                      </a>                                                
+                  </div>        
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="list.html">Listar</a></li>
+                    <li><a href="create.html">Crear</a></li>
+                    <li><a href="index.html">Salir</a></li>                  
+                </ul>
+                <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+              </div>
+            </nav>
+        </div>
+
+        <!--Menu lateral para mobile-->
+        <ul id="nav-mobile" class="side-nav">
+            <li><a href="list.html">Listar</a></li>
+            <li><a href="create.html">Crear</a></li>
+            <li><a href="index.html">Salir</a></li>            
+        </ul>
+
+        <div class="container create">            
+            <div class="row create">
+                <h5>Lista Articulos</h5>
+                
+                <table class="striped">
+                    <thead class="">
+                        <tr class="">
+                            <th class="">Marca</th>
+                            <th class="">Modelo</th>
+                            <th class="">Precio</th>
+                            <th class="center">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Casio</td>
+                            <td>AQ-120</td>
+                            <td class="">2000000</td>
+                            <td class="center">
+                                <a><button>Ver</button></a>
+                                <a><button>Editar</button></a>
+                                <a><button>Eliminar</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Swatch</td>
+                            <td>PRA</td>
+                            <td class="">5000000</td>
+                            <td class="center">
+                                <a><button>Ver</button></a>
+                                <a><button>Editar</button></a>
+                                <a><button>Eliminar</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>Citizen</td>
+                            <td>ZW-12-AK</td>
+                            <td class="">10000000</td>
+                            <td class="center">
+                                <a><button>Ver</button></a>
+                                <a><button>Editar</button></a>
+                                <a><button>Eliminar</button></a>
+                            </td>
+                        </tr>                        
+                    </tbody>
+                </table>
+            </div>    
+        </div>
+        
+        <!--  Scripts-->
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/materialize.js"></script>
+        <script src="js/init.js"></script>
+        <script>
+        </script>        
+    </body>
+</html>
